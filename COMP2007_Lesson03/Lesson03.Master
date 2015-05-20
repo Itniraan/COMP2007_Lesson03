@@ -19,10 +19,11 @@
 <body>
     <form id="form1" runat="server">
         <!-- Start Navbar -->
-        <nav id="nav1" class=""> 
-            <ul>
+        <nav id="nav1"> 
+            <ul class="nav nav-pills">
                 <li><a href="blank.aspx">Blank</a></li>
                 <li><a href="tip.aspx">Tip</a></li>
+                <li><a href="default.aspx">Default</a></li>
             </ul>
         </nav>
         <!-- End Navbar --> 
