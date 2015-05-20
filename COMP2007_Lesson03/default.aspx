@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="COMP2007_Lesson03._default" %>
+<%@ Register Src="~/banner.ascx" TagPrefix="uc1" TagName="banner" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +10,7 @@
         <body>
             <form id="form1" runat="server">
                 <div>
-        
+                    <uc1:banner ID="banner1" runat="server" />
                 </div>
             </form>
         </body>
