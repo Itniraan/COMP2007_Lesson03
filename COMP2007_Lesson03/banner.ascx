@@ -7,7 +7,7 @@
     </asp:HyperLink>
 </asp:Panel>
 
-<asp:Panel ID="pnlHorizontal" runat="server">
+<asp:Panel ID="pnlHorizontal" runat="server" Visible="false">
     <asp:HyperLink ID="lnkHorizontal" runat="server" NavigateUrl="http://www.georgiancollege.ca">
         <asp:Image ID="imgHorizontal" runat="server" AlternateText="Georgian Logo" ImageUrl="~/images/logo_landscape.jpg" />
     </asp:HyperLink>

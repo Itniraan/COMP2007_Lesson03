@@ -13,5 +13,20 @@ namespace COMP2007_Lesson03
         {
 
         }
+
+        protected void rblOrientation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Show the appropriate panel depending on the selected option
+            if (rblOrientation.SelectedValue == "Vertical")
+            {
+                banner1.FindControl("pnlVertical").Visible = true;
+                banner1.FindControl("pnlHorizontal").Visible = false;
+            }
+            else
+            {
+                banner1.FindControl("pnlVertical").Visible = false;
+                banner1.FindControl("pnlHorizontal").Visible = true;
+            }
+        }
     }
 }

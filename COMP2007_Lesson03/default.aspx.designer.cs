@@ -29,5 +29,14 @@ namespace COMP2007_Lesson03 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::COMP2007_Lesson03.banner banner1;
+        
+        /// <summary>
+        /// rblOrientation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblOrientation;
     }
 }

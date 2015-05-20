@@ -12,6 +12,10 @@
                 <div>
                     <uc1:banner ID="banner1" runat="server" />
                 </div>
+                <asp:RadioButtonList ID="rblOrientation" runat="server" OnSelectedIndexChanged="rblOrientation_SelectedIndexChanged" AutoPostBack="true">
+                    <asp:ListItem Value="Vertical" Text="Vertical" Selected="True"></asp:ListItem>
+                    <asp:ListItem Value="Horizontal" Text="Horizontal"></asp:ListItem>
+                </asp:RadioButtonList>
             </form>
         </body>
 </html>
