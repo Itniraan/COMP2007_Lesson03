@@ -5,13 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Lesson 03</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <!-- Start Navbar -->
-        <nav id="nav1"> 
+        <nav id="nav1" class=""> 
             <ul>
                 <li><a href="blank.aspx">Blank</a></li>
                 <li><a href="tip.aspx">Tip</a></li>
@@ -27,6 +35,7 @@
         <!-- Start Footer -->
         <footer>
             @2015 on a Wednesday Afternoon
+            <asp:Label ID="lblDate" runat="server"></asp:Label>
         </footer>
         <!-- End Footer -->
     </form>
