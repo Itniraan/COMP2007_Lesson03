@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Lesson03.master.cs" Inherits="COMP2007_Lesson03.Lesson03" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lesson 03</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Start Navbar -->
+        <nav id="nav1"> 
+            <ul>
+                <li><a href="blank.aspx">Blank</a></li>
+                <li><a href="tip.aspx">Tip</a></li>
+            </ul>
+        </nav>
+        <!-- End Navbar --> 
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <!-- Start Footer -->
+        <footer>
+            @2015 on a Wednesday Afternoon
+        </footer>
+        <!-- End Footer -->
+    </form>
+</body>
+</html>
